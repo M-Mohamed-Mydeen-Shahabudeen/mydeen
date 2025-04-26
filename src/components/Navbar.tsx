@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <p className="text-xl font-bold text-emerald-600 dark:text-emerald-400">
-                <span className="text-slate-800 dark:text-white">Mydeen</span>
+                <span className="text-slate-800 dark:text-white">Mohamed's Portfolio</span>
               </p>
             </div>
           </div>
