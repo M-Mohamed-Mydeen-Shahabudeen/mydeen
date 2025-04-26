@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-800 dark:text-white;
+  }
+}
+
+@layer components {
+  .animate-fadeIn {
+    animation: fadeIn 0.8s ease-in-out forwards;
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .particle {
+    @apply absolute rounded-full bg-emerald-500 dark:bg-emerald-400 opacity-20;
+    animation: float 8s infinite ease-in-out;
+  }
+
+  .particle-1 {
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    top: 20%;
+    animation-delay: 0s;
+  }
+
+  .particle-2 {
+    width: 150px;
+    height: 150px;
+    right: 15%;
+    top: 30%;
+    animation-delay: 2s;
+  }
+
+  .particle-3 {
+    width: 80px;
+    height: 80px;
+    left: 20%;
+    bottom: 20%;
+    animation-delay: 4s;
+  }
+
+  .particle-4 {
+    width: 120px;
+    height: 120px;
+    right: 10%;
+    bottom: 25%;
+    animation-delay: 6s;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-15px) translateX(15px);
+  }
+  50% {
+    transform: translateY(0) translateX(30px);
+  }
+  75% {
+    transform: translateY(15px) translateX(15px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure dark mode transitions are smooth */
+.dark {
+  color-scheme: dark;
+}
+
+/* Tailwind doesn't generate these specific animations by default */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* For better timeline on mobile */
+@media (max-width: 768px) {
+  .timeline-item {
+    @apply ml-6;
+  }
+  
+  .timeline-item .absolute {
+    @apply left-0;
+  }
+}
+
+/* Ensure inline code blocks are styled nicely */
+code {
+  @apply px-1 py-0.5 bg-slate-200 dark:bg-slate-700 rounded text-sm;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-200 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-400 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-500 dark:bg-slate-500;
+}
