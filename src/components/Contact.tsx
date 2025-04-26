@@ -288,7 +288,8 @@ const Contact: React.FC = () => {
 
               <div className="mt-12 p-6 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg">
                 <p className="text-slate-700 dark:text-slate-300 italic">
-                  "I'm always interested in challenging projects that push my skills to the next level. Let's build something amazing together!"
+                 "Whoever travel a path in search of knowledge, God will make easy for him a path to paradise."
+                 
                 </p>
               </div>
             </div>
