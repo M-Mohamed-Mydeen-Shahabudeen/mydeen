@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         
         
-          <p className="text-slate-300 text-sm text-center ml-9">
+          <p className="text-slate-300 text-sm text-center ">
           
 
             &copy; {currentYear} Mohamed Mydeen All rights reserved.
