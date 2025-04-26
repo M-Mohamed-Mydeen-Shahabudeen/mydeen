@@ -33,7 +33,7 @@ const About: React.FC = () => {
       className="py-20 bg-white dark:bg-slate-900"
     >
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 ">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
             About <span className="text-emerald-600 dark:text-emerald-400">Me</span>
           </h2>
@@ -45,12 +45,12 @@ const About: React.FC = () => {
           className="flex flex-col md:flex-row gap-20 items-center opacity-0 transition-opacity duration-1000"
         >
           <div className="md:w-1/2">
-            <p className="text-lg text-slate-700 dark:text-slate-300 mb-3 ml-20  ">
+            <p className="text-lg text-slate-700 dark:text-slate-300 mb-3 ml-5 ">
              After finishing high school, I discovered my love for programming. I have learnt C ,Java and Python. Now I'm currently focusing on building real-time projects, improving my problem-solving skills, and preparing for placements at top tech companies.
             </p>
             
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 ml-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 ml-5">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-emerald-100 dark:bg-emerald-900/50 rounded-full text-emerald-600 dark:text-emerald-400">
                   <User size={20} />
@@ -92,7 +92,7 @@ const About: React.FC = () => {
               </div>
             </div>
             
-            <div className="mt-8 ml-20">
+            <div className="mt-8 ml-5">
               <a
                 href="#contact"
                 className="px-6 py-3 bg-emerald-600 text-white rounded-lg shadow-lg hover:bg-emerald-700 transition-colors duration-300 inline-block"
