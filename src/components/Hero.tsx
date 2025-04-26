@@ -88,13 +88,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <button
-        onClick={scrollToNext}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white dark:bg-slate-800 text-slate-800 dark:text-white rounded-full p-2 shadow-lg animate-bounce"
-        aria-label="Scroll down"
-      >
-        <ChevronDown size={24} />
-      </button>
+      
     </section>
   );
 };
