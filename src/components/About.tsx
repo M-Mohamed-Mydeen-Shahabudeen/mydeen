@@ -46,7 +46,7 @@ const About: React.FC = () => {
         >
           <div className="md:w-1/2">
             <p className="text-lg text-slate-700 dark:text-slate-300 mb-3 ml-5 ">
-             After finishing high school, I discovered my love for programming. I have learnt C ,Java and Python. Now I'm currently focusing on building real-time projects, improving my problem-solving skills, and preparing for placements at top tech companies.
+            After finishing high school, I discovered a real passion for programming. I've learned C, Java, and Python, and now I'm focused on building real-time projects, sharpening my problem-solving skills, and getting ready for placements at top tech companies.
             </p>
             
             
