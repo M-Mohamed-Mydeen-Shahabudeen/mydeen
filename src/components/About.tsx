@@ -57,7 +57,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Name</p>
-                  <p className="text-slate-800 dark:text-white">Mohamed Mydeen Shahabideen M</p>
+                  <p className="text-slate-800 dark:text-white">Mohamed Mydeen Shahabudeen M</p>
                 </div>
               </div>
               
@@ -67,7 +67,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
-                  <p className="text-slate-800 dark:text-white">mmohamedukasha83@gmail.com</p>
+                  <p className="text-slate-800 dark:text-white">mohamedmydeen.sd@gmail.com</p>
                 </div>
               </div>
               
