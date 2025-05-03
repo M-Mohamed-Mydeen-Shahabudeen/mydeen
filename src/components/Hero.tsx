@@ -44,14 +44,13 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 py-16 z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div ref={textRef} className="lg:w-1/2 opacity-0 transition-opacity duration-1000">
-            <p className="text-emerald-600 dark:text-emerald-400 font-medium mb-4">Hello, I'm a</p>
+            <p className="text-emerald-600 dark:text-emerald-400 font-medium mb-4">Hello, I'm </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 dark:text-white mb-4">
               mohamed mydeen {' '}
               <span className="text-emerald-600 dark:text-emerald-400">Developer</span>
             </h1>
             <p className="text-lg text-slate-600 dark:text-slate-300 mb-6 max-w-lg">
-              Passionate about developing innovative solutions and learning new technologies.
-              Currently focused on web development,Problems Solving, and software engineering.
+            Passionate about tech, with a focus on web development, problem-solving, and building strong software engineering skills.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
