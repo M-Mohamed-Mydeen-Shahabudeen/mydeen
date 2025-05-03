@@ -40,7 +40,7 @@ const Projects: React.FC = () => {
     };
   }, []);
 
-  const categories = ['all', 'web', 'ai', 'other'];
+  const categories = ['all', 'web', 'AI', 'Software'];
 
   return (
     <section id="projects" className="py-20 bg-slate-100 dark:bg-slate-800">
