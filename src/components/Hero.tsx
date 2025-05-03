@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { ChevronDown } from 'lucide-react';
-import profileImage from '../assets/images/1000006091.jpg';
+
+import profileImage from '../assets/images/md.jpg';
 
 const Hero: React.FC = () => {
   const textRef = useRef<HTMLDivElement>(null);
@@ -28,13 +28,7 @@ const Hero: React.FC = () => {
     };
   }, []);
 
-  const scrollToNext = () => {
-    const aboutSection = document.querySelector('#about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+  
   return (
     <section
       id="home"
