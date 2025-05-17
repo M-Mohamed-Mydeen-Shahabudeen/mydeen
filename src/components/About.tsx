@@ -94,8 +94,8 @@ const About: React.FC = () => {
             </div>
             
             <div className="mt-8 ml-5">
-             <a
-                  href={mydeen}
+              <a
+                  href="/mydeen.pdf"
                   download="Mohamed_Mydeen_resume.pdf"
                   className="px-6 py-3 bg-emerald-600 text-white rounded-lg shadow-lg hover:bg-emerald-700 transition-colors duration-300 inline-block"
                 >
