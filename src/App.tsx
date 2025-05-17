@@ -8,7 +8,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
-import mydeen from './assets/mydeen.pdf'; // adjust the path as needed
+import mydeen from './assets/mydeen.pdf'; 
 
 function App() {
   return (
