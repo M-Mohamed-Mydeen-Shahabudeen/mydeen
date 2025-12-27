@@ -74,8 +74,12 @@ const Contact: React.FC = () => {
     if (validateForm()) {
       setIsSubmitting(true);
       
+      // Generate unique user ID (timestamp-based)
+      const userId = Date.now().toString().slice(-6);
+      
       // Format message for WhatsApp
       const whatsappMessage = `New Contact Message 🚀
+User ID: #${userId}
 Name: ${formData.name}
 Email: ${formData.email}
 Subject: ${formData.subject}
